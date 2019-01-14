@@ -1,15 +1,17 @@
+name: base
 channels:
-  - damianavila82
-  - conda-forge
+- conda-forge
 dependencies:
-  - python
-  - requests
-  - numba
-  - numpy
-  - pandas
-  - scipy
-  - matplotlib
-  - ipywidgets
+  - jupyter_conda
+  - nodejs
+  - ipympl
   - rise
   - pip:
-    - jupyter-contrib-nbextensions
+      - autopep8
+      - black
+      - jupyterlab_code_formatter
+      - jupyterlab-git
+      - jupyterlab_github
+      - jupyterlab-solutions
+      - numecon
+      - yapf
