@@ -4,6 +4,15 @@ channels:
 dependencies:
   - nodejs
   - ipympl
+  - python
+  - requests
+  - numba
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn  
+  - ipywidgets
   - rise
   - pip:
       - autopep8
