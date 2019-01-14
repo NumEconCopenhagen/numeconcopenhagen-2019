@@ -1,7 +1,10 @@
-jupyter contrib nbextension install --user
-jupyter nbextension enable collapsible_headings/main
-jupyter nbextension enable codefolding/main
-jupyter nbextension enable toc2/main
-jupyter nbextension enable rise/main
-jupyter nbextension enable splitcell/splitcell
-jupyter nbextension enable code_prettify/code_prettify
+jupyter labextension install \
+    @ijmbarr/jupyterlab_spellchecker \
+    @jupyterlab/latex \
+    @jupyterlab/statusbar \
+    @jupyterlab/toc \
+    @ryantam626/jupyterlab_code_formatter \
+    jupyter-matplotlib \
+    https://github.com/elben10/jupyterlab-variableInspector
+    
+jupyter serverextension enable jupyterlab_code_formatter
